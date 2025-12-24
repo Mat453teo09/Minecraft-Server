@@ -1,72 +1,59 @@
 # Minecraft-Server
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📌 Minecraft Server</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  background: #121212;
-  color: #eee;
-}
+  <!-- HEADER / MENU -->
+  <header>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#join">Come giocare</a>
+      <a href="#modes">Modalità</a>
+      <a href="#discord">Discord</a>
+    </nav>
+  </header>
 
-header {
-  background: #000;
-  padding: 1rem;
-  text-align: center;
-}
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <h1>🎮 Benvenuto nel nostro Server Minecraft</h1>
+    <p>Unisciti ora e divertiti!</p>
+    <a class="btn" href="#join">Gioca ora</a>
+  </section>
 
-.nav a {
-  margin: 0 1rem;
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
+  <!-- JOIN -->
+  <section id="join" class="section">
+    <h2>➡️ Come giocare (Java)</h2>
+    <p><strong>IP Server:</strong> <span id="server-ip">play.tuoserver.it</span></p>
+    <p>Versione: 1.8 → 1.21+</p>
+  </section>
 
-.hero {
-  text-align: center;
-  padding: 4rem 1rem;
-  background: #1f1f1f;
-}
+  <!-- MODALITÀ -->
+  <section id="modes" class="section">
+    <h2>🛠️ Modalità di gioco</h2>
+    <div class="cards">
+      <div class="card"><h3>Survival</h3><p>Vivi l’esperienza pura!</p></div>
+      <div class="card"><h3>Skyblock</h3><p>Costruisci da zero!</p></div>
+      <div class="card"><h3>Minigames</h3><p>Sfida i tuoi amici!</p></div>
+    </div>
+  </section>
 
-.hero .btn {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: .7rem 1.5rem;
-  background: #0ea5e9;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
+  <!-- DISCORD -->
+  <section id="discord" class="section">
+    <h2>💬 Entra nella nostra Discord</h2>
+    <a class="btn" href="https://discord.gg/tuo-link" target="_blank">Unisciti ora</a>
+  </section>
 
-.section {
-  padding: 2rem 1rem;
-  text-align: center;
-}
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Minecraft Server • Tutti i diritti riservati
+  </footer>
 
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.card {
-  background: #242424;
-  padding: 1rem;
-  border-radius: 8px;
-  width: 180px;
-}
-
-.btn {
-  background: #0ea5e9;
-  padding: .7rem 1.5rem;
-  border-radius: 5px;
-  color: #fff;
-  text-decoration: none;
-}
-footer {
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  background: #000;
-}
+</body>
+<script src="script.js"></script>
+</html>
