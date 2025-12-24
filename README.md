@@ -29,8 +29,8 @@
   <!-- JOIN -->
   <section id="join" class="section">
     <h2>➡️ Come giocare (Java)</h2>
-    <p><strong>IP Server:</strong> <span id="server-ip">play.tuoserver.it</span></p>
-    <p>Versione: 1.8 → 1.21+</p>
+    <p><strong>IP Server:</strong> <span id="server-ip">Mat453teo09.aternos.me</span></p>
+    <p>Versione: 1.21.x</p>
   </section>
 
   <!-- MODALITÀ -->
@@ -46,7 +46,7 @@
   <!-- DISCORD -->
   <section id="discord" class="section">
     <h2>💬 Entra nella nostra Discord</h2>
-    <a class="btn" href="https://discord.gg/tuo-link" target="_blank">Unisciti ora</a>
+    <a class="btn" href="https://discord.gg/Cq7gGZD4Z4" target="_blank">Unisciti ora</a>
   </section>
 
   <!-- FOOTER -->
@@ -57,3 +57,4 @@
 </body>
 <script src="script.js"></script>
 </html>
+
